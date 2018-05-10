@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Upload</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='style.css') }} "/>
+	</head>
+	<body>
+        <header><h1>Bulk Redirects Testing Tool</h1></header>
+        <p>Test your redirects here!! You can also download the sample to see the format <a href="{{ url_for('static',filename ='sample.xlsx') }}">ercloudletsample.xlsx</a></p>
+		<form action="http://52.38.27.30/uploader" method="POST" enctype="multipart/form-data">
+			<table>
+                <tr><td><h3>Upload the Excel File</h3></td><td><input type="file" name="file"/></td></tr>
+                <tr><td><h3>Enter the Email Id</h3></td><td><input type="email" name="email" value="ldap@akamai.com"/></td></tr>
+                <tr><td><h3>Enter the Edge Host Name</h3></td><td><input type="text" name="esn" value="akamath.edgesuite.net"/></td></tr>
+		<tr><td><h3>Click the button to begin test</h3></td><td><input type="submit" value="Test"/></td></tr>
+            </table>
+		</form>
+        <p><h3>Copy of results will be sent to your email in few minutes!!</h3></p>
+	</body>
+</html>

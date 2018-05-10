@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='style.css') }} "/>
+	</head>
+	<body>
+        <header><h1>Bulk Redirects Testing Tool</h1></header>
+        <table>
+            <tr><td style="color:black;font-weight:bold"><h3>To see the result</h3></td><td><a href= "{{fname}}"><h3>Click Here!!</h3></a></td></tr>
+            <tr><td style="color:green;font-weight:bold"><h3>Success</h3></td><td style="color:green;font-weight:bold"><h3>{{success}}</h3></td></tr>
+            <tr><td style="color:red;font-weight:bold"><h3>Failure</h3></td><td style="color:red;font-weight:bold"><h3>{{failure}}</h3></td></tr>
+        </table>
+	</body>
+</html>
+
