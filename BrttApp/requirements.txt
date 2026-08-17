@@ -13,7 +13,7 @@ pyasn1==0.1.9
 pyinotify==0.9.6
 pyOpenSSL==0.15.1
 python-dateutil==2.6.0
-requests==2.13.0
+requests==2.33.1
 six==1.10.0
 urllib3==1.20
 virtualenv==15.1.0
