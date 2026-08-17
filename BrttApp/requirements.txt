@@ -11,7 +11,7 @@ Jinja2==2.9.5
 MarkupSafe==0.23
 pyasn1==0.1.9
 pyinotify==0.9.6
-pyOpenSSL==0.15.1
+pyOpenSSL==25.3.0
 python-dateutil==2.6.0
 requests==2.13.0
 six==1.10.0
